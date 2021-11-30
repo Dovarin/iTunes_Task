@@ -7,23 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B007FFB6A36A0BD9BD40624E /* Pods_iTunes_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5810A74FBA04A067F383CAC /* Pods_iTunes_Task.framework */; };
 		BC7FD1B42755025000CA650A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1B32755025000CA650A /* AppDelegate.swift */; };
 		BC7FD1B62755025000CA650A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1B52755025000CA650A /* SceneDelegate.swift */; };
-		BC7FD1B82755025000CA650A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1B72755025000CA650A /* ViewController.swift */; };
-		BC7FD1BB2755025000CA650A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC7FD1B92755025000CA650A /* Main.storyboard */; };
 		BC7FD1BD2755025200CA650A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC7FD1BC2755025200CA650A /* Assets.xcassets */; };
 		BC7FD1C02755025200CA650A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC7FD1BE2755025200CA650A /* LaunchScreen.storyboard */; };
+		BC7FD1C82755037900CA650A /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1C72755037900CA650A /* AuthViewController.swift */; };
+		BC7FD1CA275509B200CA650A /* UIStackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1C9275509B200CA650A /* UIStackView + Extension.swift */; };
+		BC7FD1CC275517F800CA650A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1CB275517F800CA650A /* SignUpViewController.swift */; };
+		BC7FD1CE2755297800CA650A /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1CD2755297800CA650A /* AlbumsViewController.swift */; };
+		BC7FD1D027552BF600CA650A /* CreateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1CF27552BF600CA650A /* CreateButton.swift */; };
+		BC7FD1D22755301C00CA650A /* AlbumsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1D12755301C00CA650A /* AlbumsTableViewController.swift */; };
+		BC7FD1D5275534AF00CA650A /* DetailAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1D4275534AF00CA650A /* DetailAlbumViewController.swift */; };
+		BC7FD1D72755387700CA650A /* SongsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1D62755387700CA650A /* SongsCollectionViewCell.swift */; };
+		BC7FD1D927553BC100CA650A /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1D827553BC100CA650A /* UserInfoViewController.swift */; };
+		BC7FD1DC2755677200CA650A /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1DB2755677200CA650A /* String + Extension.swift */; };
+		BC7FD1DF275583B500CA650A /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1DE275583B500CA650A /* AlbumModel.swift */; };
+		BC7FD1E2275584D100CA650A /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1E1275584D100CA650A /* NetworkRequest.swift */; };
+		BC7FD1E42755882E00CA650A /* NetworkDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1E32755882E00CA650A /* NetworkDataFetch.swift */; };
+		BC7FD1E62755A00700CA650A /* SongsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1E52755A00700CA650A /* SongsModel.swift */; };
+		BC7FD1E82755A34900CA650A /* AlbumsCell + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1E72755A34900CA650A /* AlbumsCell + Extension.swift */; };
+		BC7FD1EB2755A49C00CA650A /* AuthVC + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1EA2755A49C00CA650A /* AuthVC + Extension.swift */; };
+		BC7FD1ED2755A55D00CA650A /* SignUpVC + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1EC2755A55D00CA650A /* SignUpVC + Extension.swift */; };
+		BC7FD1EF2755A6A600CA650A /* AlbumsVC + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1EE2755A6A600CA650A /* AlbumsVC + Extension.swift */; };
+		BC7FD1F12755A72900CA650A /* DetailAlbumVC + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1F02755A72900CA650A /* DetailAlbumVC + Extension.swift */; };
+		BC7FD1F32755A7BD00CA650A /* UserInfoVC + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1F22755A7BD00CA650A /* UserInfoVC + Extension.swift */; };
+		BC7FD1F6275632D200CA650A /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1F5275632D200CA650A /* UserDefaultsManager.swift */; };
+		BC7FD1F82756334A00CA650A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1F72756334A00CA650A /* UserModel.swift */; };
+		BC7FD1FA2756376900CA650A /* Alert + UIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1F92756376900CA650A /* Alert + UIVC.swift */; };
+		BC7FD1FE27564E5300CA650A /* AuthVC + ButtonTapped + Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1FD27564E5300CA650A /* AuthVC + ButtonTapped + Database.swift */; };
+		BC7FD20027564EF100CA650A /* SignUpVC + ButtonTapped.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD1FF27564EF100CA650A /* SignUpVC + ButtonTapped.swift */; };
+		BC7FD2022756501F00CA650A /* EssentialProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FD2012756501F00CA650A /* EssentialProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BD4698559565E90EAF3BDDF /* Pods-iTunes_Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunes_Task.release.xcconfig"; path = "Target Support Files/Pods-iTunes_Task/Pods-iTunes_Task.release.xcconfig"; sourceTree = "<group>"; };
+		23BB95A1426C05938B6C0FFB /* Pods-iTunes_Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunes_Task.debug.xcconfig"; path = "Target Support Files/Pods-iTunes_Task/Pods-iTunes_Task.debug.xcconfig"; sourceTree = "<group>"; };
 		BC7FD1B02755025000CA650A /* iTunes_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunes_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7FD1B32755025000CA650A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC7FD1B52755025000CA650A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BC7FD1B72755025000CA650A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BC7FD1BA2755025000CA650A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC7FD1BC2755025200CA650A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC7FD1BF2755025200CA650A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC7FD1C12755025200CA650A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC7FD1C72755037900CA650A /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		BC7FD1C9275509B200CA650A /* UIStackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extension.swift"; sourceTree = "<group>"; };
+		BC7FD1CB275517F800CA650A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		BC7FD1CD2755297800CA650A /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
+		BC7FD1CF27552BF600CA650A /* CreateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateButton.swift; sourceTree = "<group>"; };
+		BC7FD1D12755301C00CA650A /* AlbumsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewController.swift; sourceTree = "<group>"; };
+		BC7FD1D4275534AF00CA650A /* DetailAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAlbumViewController.swift; sourceTree = "<group>"; };
+		BC7FD1D62755387700CA650A /* SongsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsCollectionViewCell.swift; sourceTree = "<group>"; };
+		BC7FD1D827553BC100CA650A /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		BC7FD1DB2755677200CA650A /* String + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
+		BC7FD1DE275583B500CA650A /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		BC7FD1E1275584D100CA650A /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		BC7FD1E32755882E00CA650A /* NetworkDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetch.swift; sourceTree = "<group>"; };
+		BC7FD1E52755A00700CA650A /* SongsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsModel.swift; sourceTree = "<group>"; };
+		BC7FD1E72755A34900CA650A /* AlbumsCell + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlbumsCell + Extension.swift"; sourceTree = "<group>"; };
+		BC7FD1EA2755A49C00CA650A /* AuthVC + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AuthVC + Extension.swift"; sourceTree = "<group>"; };
+		BC7FD1EC2755A55D00CA650A /* SignUpVC + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUpVC + Extension.swift"; sourceTree = "<group>"; };
+		BC7FD1EE2755A6A600CA650A /* AlbumsVC + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlbumsVC + Extension.swift"; sourceTree = "<group>"; };
+		BC7FD1F02755A72900CA650A /* DetailAlbumVC + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailAlbumVC + Extension.swift"; sourceTree = "<group>"; };
+		BC7FD1F22755A7BD00CA650A /* UserInfoVC + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserInfoVC + Extension.swift"; sourceTree = "<group>"; };
+		BC7FD1F5275632D200CA650A /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		BC7FD1F72756334A00CA650A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		BC7FD1F92756376900CA650A /* Alert + UIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert + UIVC.swift"; sourceTree = "<group>"; };
+		BC7FD1FD27564E5300CA650A /* AuthVC + ButtonTapped + Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AuthVC + ButtonTapped + Database.swift"; sourceTree = "<group>"; };
+		BC7FD1FF27564EF100CA650A /* SignUpVC + ButtonTapped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUpVC + ButtonTapped.swift"; sourceTree = "<group>"; };
+		BC7FD2012756501F00CA650A /* EssentialProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialProtocol.swift; sourceTree = "<group>"; };
+		E5810A74FBA04A067F383CAC /* Pods_iTunes_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTunes_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +83,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B007FFB6A36A0BD9BD40624E /* Pods_iTunes_Task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FB9956E8DA8CBA14754BDB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23BB95A1426C05938B6C0FFB /* Pods-iTunes_Task.debug.xcconfig */,
+				0BD4698559565E90EAF3BDDF /* Pods-iTunes_Task.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BC7FD1A72755025000CA650A = {
 			isa = PBXGroup;
 			children = (
 				BC7FD1B22755025000CA650A /* iTunes_Task */,
 				BC7FD1B12755025000CA650A /* Products */,
+				2FB9956E8DA8CBA14754BDB2 /* Pods */,
+				C81EE6739E590B6FD662E839 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +120,103 @@
 		BC7FD1B22755025000CA650A /* iTunes_Task */ = {
 			isa = PBXGroup;
 			children = (
+				BC7FD203275653FB00CA650A /* Protocol */,
+				BC7FD1E0275584BB00CA650A /* Network */,
+				BC7FD1F42756327100CA650A /* Services */,
+				BC7FD1E92755A45F00CA650A /* Controllers */,
+				BC7FD1DD2755839B00CA650A /* Model */,
+				BC7FD1DA2755675700CA650A /* Extensions */,
+				BC7FD1D32755302500CA650A /* Cell */,
 				BC7FD1B32755025000CA650A /* AppDelegate.swift */,
 				BC7FD1B52755025000CA650A /* SceneDelegate.swift */,
-				BC7FD1B72755025000CA650A /* ViewController.swift */,
-				BC7FD1B92755025000CA650A /* Main.storyboard */,
 				BC7FD1BC2755025200CA650A /* Assets.xcassets */,
 				BC7FD1BE2755025200CA650A /* LaunchScreen.storyboard */,
 				BC7FD1C12755025200CA650A /* Info.plist */,
 			);
 			path = iTunes_Task;
+			sourceTree = "<group>";
+		};
+		BC7FD1D32755302500CA650A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BC7FD1D12755301C00CA650A /* AlbumsTableViewController.swift */,
+				BC7FD1D62755387700CA650A /* SongsCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BC7FD1DA2755675700CA650A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BC7FD1CF27552BF600CA650A /* CreateButton.swift */,
+				BC7FD1C9275509B200CA650A /* UIStackView + Extension.swift */,
+				BC7FD1DB2755677200CA650A /* String + Extension.swift */,
+				BC7FD1F92756376900CA650A /* Alert + UIVC.swift */,
+				BC7FD1EA2755A49C00CA650A /* AuthVC + Extension.swift */,
+				BC7FD1FD27564E5300CA650A /* AuthVC + ButtonTapped + Database.swift */,
+				BC7FD1EC2755A55D00CA650A /* SignUpVC + Extension.swift */,
+				BC7FD1FF27564EF100CA650A /* SignUpVC + ButtonTapped.swift */,
+				BC7FD1E72755A34900CA650A /* AlbumsCell + Extension.swift */,
+				BC7FD1EE2755A6A600CA650A /* AlbumsVC + Extension.swift */,
+				BC7FD1F02755A72900CA650A /* DetailAlbumVC + Extension.swift */,
+				BC7FD1F22755A7BD00CA650A /* UserInfoVC + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BC7FD1DD2755839B00CA650A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC7FD1DE275583B500CA650A /* AlbumModel.swift */,
+				BC7FD1E52755A00700CA650A /* SongsModel.swift */,
+				BC7FD1F72756334A00CA650A /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC7FD1E0275584BB00CA650A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BC7FD1E1275584D100CA650A /* NetworkRequest.swift */,
+				BC7FD1E32755882E00CA650A /* NetworkDataFetch.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BC7FD1E92755A45F00CA650A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC7FD1C72755037900CA650A /* AuthViewController.swift */,
+				BC7FD1CB275517F800CA650A /* SignUpViewController.swift */,
+				BC7FD1CD2755297800CA650A /* AlbumsViewController.swift */,
+				BC7FD1D4275534AF00CA650A /* DetailAlbumViewController.swift */,
+				BC7FD1D827553BC100CA650A /* UserInfoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BC7FD1F42756327100CA650A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BC7FD1F5275632D200CA650A /* UserDefaultsManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BC7FD203275653FB00CA650A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				BC7FD2012756501F00CA650A /* EssentialProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		C81EE6739E590B6FD662E839 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5810A74FBA04A067F383CAC /* Pods_iTunes_Task.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC7FD1C42755025200CA650A /* Build configuration list for PBXNativeTarget "iTunes_Task" */;
 			buildPhases = (
+				99AC9EBD5E4CD79E9F98295C /* [CP] Check Pods Manifest.lock */,
 				BC7FD1AC2755025000CA650A /* Sources */,
 				BC7FD1AD2755025000CA650A /* Frameworks */,
 				BC7FD1AE2755025000CA650A /* Resources */,
+				24045EF0C61F10388F37DE99 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +281,92 @@
 			files = (
 				BC7FD1C02755025200CA650A /* LaunchScreen.storyboard in Resources */,
 				BC7FD1BD2755025200CA650A /* Assets.xcassets in Resources */,
-				BC7FD1BB2755025000CA650A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24045EF0C61F10388F37DE99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTunes_Task/Pods-iTunes_Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTunes_Task/Pods-iTunes_Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iTunes_Task/Pods-iTunes_Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99AC9EBD5E4CD79E9F98295C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iTunes_Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BC7FD1AC2755025000CA650A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC7FD1B82755025000CA650A /* ViewController.swift in Sources */,
+				BC7FD1E2275584D100CA650A /* NetworkRequest.swift in Sources */,
+				BC7FD1CC275517F800CA650A /* SignUpViewController.swift in Sources */,
+				BC7FD1CA275509B200CA650A /* UIStackView + Extension.swift in Sources */,
+				BC7FD2022756501F00CA650A /* EssentialProtocol.swift in Sources */,
+				BC7FD1FA2756376900CA650A /* Alert + UIVC.swift in Sources */,
+				BC7FD1DC2755677200CA650A /* String + Extension.swift in Sources */,
+				BC7FD1ED2755A55D00CA650A /* SignUpVC + Extension.swift in Sources */,
+				BC7FD1E42755882E00CA650A /* NetworkDataFetch.swift in Sources */,
+				BC7FD1CE2755297800CA650A /* AlbumsViewController.swift in Sources */,
+				BC7FD1E62755A00700CA650A /* SongsModel.swift in Sources */,
+				BC7FD1F12755A72900CA650A /* DetailAlbumVC + Extension.swift in Sources */,
+				BC7FD1E82755A34900CA650A /* AlbumsCell + Extension.swift in Sources */,
+				BC7FD1F82756334A00CA650A /* UserModel.swift in Sources */,
+				BC7FD1D72755387700CA650A /* SongsCollectionViewCell.swift in Sources */,
+				BC7FD1D027552BF600CA650A /* CreateButton.swift in Sources */,
+				BC7FD1DF275583B500CA650A /* AlbumModel.swift in Sources */,
+				BC7FD1D927553BC100CA650A /* UserInfoViewController.swift in Sources */,
+				BC7FD20027564EF100CA650A /* SignUpVC + ButtonTapped.swift in Sources */,
+				BC7FD1F6275632D200CA650A /* UserDefaultsManager.swift in Sources */,
+				BC7FD1D5275534AF00CA650A /* DetailAlbumViewController.swift in Sources */,
+				BC7FD1C82755037900CA650A /* AuthViewController.swift in Sources */,
+				BC7FD1EB2755A49C00CA650A /* AuthVC + Extension.swift in Sources */,
+				BC7FD1D22755301C00CA650A /* AlbumsTableViewController.swift in Sources */,
 				BC7FD1B42755025000CA650A /* AppDelegate.swift in Sources */,
+				BC7FD1EF2755A6A600CA650A /* AlbumsVC + Extension.swift in Sources */,
 				BC7FD1B62755025000CA650A /* SceneDelegate.swift in Sources */,
+				BC7FD1F32755A7BD00CA650A /* UserInfoVC + Extension.swift in Sources */,
+				BC7FD1FE27564E5300CA650A /* AuthVC + ButtonTapped + Database.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BC7FD1B92755025000CA650A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC7FD1BA2755025000CA650A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BC7FD1BE2755025200CA650A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +496,7 @@
 		};
 		BC7FD1C52755025200CA650A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23BB95A1426C05938B6C0FFB /* Pods-iTunes_Task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +507,6 @@
 				INFOPLIST_FILE = iTunes_Task/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +524,7 @@
 		};
 		BC7FD1C62755025200CA650A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD4698559565E90EAF3BDDF /* Pods-iTunes_Task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +535,6 @@
 				INFOPLIST_FILE = iTunes_Task/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
